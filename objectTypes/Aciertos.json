@@ -1,0 +1,17 @@
+{
+	"name": "Aciertos",
+	"plugin-id": "Text",
+	"sid": 644630849406310,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 823195499175534
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,65 @@
+{
+	"name": "pngegg10",
+	"plugin-id": "Sprite",
+	"sid": 118882831945033,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "jumpthru",
+			"name": "SaltoATravés",
+			"sid": 757508900581652
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 636,
+						"height": 283,
+						"originX": 0.3411949685534591,
+						"originY": 0.36042402826855124,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3155171,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.23321554770318012,
+								0.9984274810215212,
+								0.3957596633965052,
+								0.916666570699439,
+								0.5830389231759326,
+								0.8207548609319725,
+								0.6219080732904976,
+								0.647798862097398,
+								1,
+								0.16194987746904488,
+								0.9151943462897529,
+								0.0880504104326356,
+								0.5706714320098554,
+								0.001572375027638561,
+								0.6563604509872603
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 864188918809226,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

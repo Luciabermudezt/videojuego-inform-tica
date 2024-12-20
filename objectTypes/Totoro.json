@@ -1,0 +1,104 @@
+{
+	"name": "Totoro",
+	"plugin-id": "Sprite",
+	"sid": 397196931618992,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Plataforma",
+			"sid": 299174872314462
+		},
+		{
+			"behaviorId": "bound",
+			"name": "RestringidoALaEscena",
+			"sid": 143486292839692
+		},
+		{
+			"behaviorId": "wrap",
+			"name": "Rodear",
+			"sid": 380320715100237
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 183,
+						"height": 297,
+						"originX": 0.5027322404371585,
+						"originY": 0.49158249158249157,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4557040,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.9966329966329966,
+								0,
+								0.9966329966329966,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 727907559330316,
+				"name": "Derecha",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 183,
+						"height": 297,
+						"originX": 0.4972677595628415,
+						"originY": 0.49158249158249157,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8211309,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0.9966329966329966,
+								0,
+								0.9966329966329966
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 541970799439913,
+				"name": "izquierda",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

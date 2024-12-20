@@ -1,0 +1,309 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Puntos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 539017840845655
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 358360583697473
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SumaPuntos",
+					"sid": 964724399306652,
+					"parameters": {
+						"text": "Puntos"
+					}
+				}
+			],
+			"sid": 461865879959590
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Totoro",
+					"sid": 426187224730846,
+					"parameters": {
+						"object": "Pastelito2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Pastelito2",
+					"sid": 752141815326540
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 863613389846496,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 714906276227567
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Totoro",
+					"sid": 891489837973930,
+					"parameters": {
+						"object": "Pastelito3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Pastelito3",
+					"sid": 866497199985183
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 370423496890436,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 109494691689210
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Totoro",
+					"sid": 261662584327062,
+					"parameters": {
+						"object": "Pastelito4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Pastelito4",
+					"sid": 642674609698161
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 860213640958362,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 451141855887787
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Totoro",
+					"sid": 712826768383989,
+					"parameters": {
+						"object": "Pastelito5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Pastelito5",
+					"sid": 730613907222172
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 440249869766669,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 974966407635802
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 406044552504873
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Totoro",
+					"sid": 815693541571496,
+					"parameters": {
+						"object": "Pastelito1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Pastelito1",
+					"sid": 207178377088480
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 886332933729796,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 110920074719420
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 364988791452025,
+					"parameters": {
+						"variable": "Puntos",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "cofretesoroestilopixelart_",
+					"sid": 181980445301360,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "cofretesoroestilopixelart_",
+					"sid": 971661775961020,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 471366070546535
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Totoro",
+					"sid": 708673170680668,
+					"parameters": {
+						"object": "cofretesoroestilopixelart_"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 579971744877012,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 890603150553805,
+					"parameters": {
+						"layout": "Escena 4"
+					}
+				}
+			],
+			"sid": 504991344369158
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 731182269378012,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Totoro",
+					"sid": 406151696581796,
+					"parameters": {
+						"animation": "\"Derecha\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 597032602079222
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 741322248448708,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Totoro",
+					"sid": 748181938080532,
+					"parameters": {
+						"animation": "\"izquierda\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 161445231924424
+		}
+	],
+	"sid": 207871896017935
+}

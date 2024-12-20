@@ -1,0 +1,12 @@
+{
+	"name": "Teclado",
+	"plugin-id": "Keyboard",
+	"sid": 310766397824486,
+	"singleglobal-inst": {
+		"type": "Teclado",
+		"properties": {},
+		"uid": 58,
+		"sid": 635905063464029,
+		"tags": ""
+	}
+}
